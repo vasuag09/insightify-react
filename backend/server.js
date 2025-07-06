@@ -11,8 +11,9 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: "https://insightify-react-frontend.onrender.com", // <- Your frontend URL
-  credentials: true, // optional, if you're using cookies or auth headers
+  origin: "https://insightify-react-frontend.onrender.com", // ✅ Frontend domain
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true, // Optional if you use cookies or auth headers
 }));
 
 app.use(express.json());

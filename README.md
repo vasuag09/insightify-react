@@ -53,3 +53,17 @@
 - Protected backend routes using **Express middleware**
 
 ---
+
+## 🚀 Deployment
+
+- **Frontend:** [Render Frontend URL](https://insightify-react-frontend.onrender.com)
+- **Backend:** [Render Backend URL](https://insightify-react-backend.onrender.com)
+- MongoDB Atlas hosted
+- Environment variables securely configured in `.env`
+
+---
+📬 Contact
+Vasu Agrawal
+📧 vasuagrawal1040@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/vasu-agrawal20/
+🔗 GitHub: https://github.com/vasuag09

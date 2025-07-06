@@ -62,8 +62,8 @@
 - Environment variables securely configured in `.env`
 
 ---
-📬 Contact
-Vasu Agrawal
-📧 vasuagrawal1040@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/vasu-agrawal20/
-🔗 GitHub: https://github.com/vasuag09
+## 📬 Contact
+**Vasu Agrawal**
+- 📧 vasuagrawal1040@gmail.com
+- 🔗 LinkedIn: https://www.linkedin.com/in/vasu-agrawal20/
+- 🔗 GitHub: https://github.com/vasuag09

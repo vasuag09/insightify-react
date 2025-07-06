@@ -1,6 +1,6 @@
 import { QueryClient } from "@tanstack/react-query";
 
-const url = "http://localhost:3000/api";
+const url = "https://insightify-react-backend.onrender.com/api";
 export const queryClient = new QueryClient();
 export async function signUpUser({ userData }) {
   const fetchUrl = url + "/auth/signup";
@@ -115,7 +115,7 @@ export async function fetchJob({ jobId, method }) {
 export async function parseResume(formData) {
   const token = JSON.parse(localStorage.getItem("token"));
 
-  const response = await fetch("http://localhost:3000/api/resume/upload", {
+  const response = await fetch("https://insightify-react-backend.onrender.com/api/resume/upload", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${token}`,
@@ -136,7 +136,7 @@ export async function parseResume(formData) {
 export async function saveParsedResume(resumeData) {
   const token = JSON.parse(localStorage.getItem("token"));
 
-  const response = await fetch("http://localhost:3000/api/resume/save", {
+  const response = await fetch("https://insightify-react-backend.onrender.com/api/resume/save", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${token}`,
@@ -158,7 +158,7 @@ export async function saveParsedResume(resumeData) {
 export async function fetchSavedResumes() {
   const token = JSON.parse(localStorage.getItem("token"));
 
-  const response = await fetch("http://localhost:3000/api/resume", {
+  const response = await fetch("https://insightify-react-backend.onrender.com/api/resume", {
     method: "GET",
     headers: {
       Authorization: `Bearer ${token}`,
@@ -242,7 +242,7 @@ export async function addEditNote({ method, noteData, noteId }) {
 
 export async function deleteNote(noteId) {
   const token = JSON.parse(localStorage.getItem("token"));
-  const response = await fetch(`http://localhost:3000/api/notes/${noteId}`, {
+  const response = await fetch(`https://insightify-react-backend.onrender.com/api/notes/${noteId}`, {
     method: "DELETE",
     headers: {
       Authorization: `Bearer ${token}`,
@@ -260,7 +260,7 @@ export async function deleteNote(noteId) {
 
 export async function aiSuggestion(content) {
   const token = JSON.parse(localStorage.getItem("token"));
-  const response = await fetch(`http://localhost:3000/api/notes/ai/suggest`, {
+  const response = await fetch(`https://insightify-react-backend.onrender.com/api/notes/ai/suggest`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

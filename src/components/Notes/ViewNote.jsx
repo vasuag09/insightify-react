@@ -147,7 +147,6 @@ export default function ViewNote() {
           >
             {suggestion}
           </ReactMarkdown>
-          {suggestion}
         </motion.div>
       )}
     </motion.div>

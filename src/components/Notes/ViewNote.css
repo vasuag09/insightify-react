@@ -1,0 +1,131 @@
+.view-note {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem 2.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.view-note h2 {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.note-tags {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: #eff6ff;
+  color: #3b82f6;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+}
+
+.note-content {
+  line-height: 1.7;
+  color: #374151;
+  margin-bottom: 2rem;
+}
+
+.note-content img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.note-actions button {
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.note-actions button:hover {
+  background-color: #f3f4f6;
+}
+
+.note-actions .danger {
+  background-color: #ef4444;
+  color: white;
+}
+
+.note-actions .danger:hover {
+  background-color: #dc2626;
+}
+
+.no-note {
+  max-width: 600px;
+  margin: 5rem auto;
+  padding: 2.5rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.no-note h2 {
+  font-size: 1.8rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.no-note p {
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.no-note button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.no-note button:hover {
+  background-color: #2563eb;
+}
+.ai-suggestion {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #3b82f6;
+  background-color: #f0f4ff;
+  color: #1f2937;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.ai-suggestion::before {
+  content: "💡 AI Insight";
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #2563eb;
+  font-size: 1rem;
+}
+

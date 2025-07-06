@@ -1,0 +1,74 @@
+.job-form {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem 2.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  font-family: "Poppins", sans-serif;
+}
+
+.job-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1f2937;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+input,
+select,
+textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s, box-shadow 0.3s;
+  font-family: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2563eb;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .job-form {
+    padding: 1.5rem;
+    margin: 2rem 1rem;
+  }
+}

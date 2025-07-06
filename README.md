@@ -1,12 +1,55 @@
-# React + Vite
+# 🚀 Insightify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Insightify** is a full-stack, AI-powered Job Tracker & Resume Manager built with React, Redux, Node.js, Express, MongoDB, and Google Gemini AI.
 
-Currently, two official plugins are available:
+![Insightify Preview](./screenshot.png) <!-- Replace with your actual image path -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ User Authentication (JWT)
+- 📊 Dashboard with job application statistics
+- 📝 Track, add, edit, and delete job applications
+- 🤖 Resume Parser with AI Insights (Gemini API)
+- 🗂️ Secure Note-taking with markdown support
+- 💡 AI-generated suggestions based on user notes
+- 🔐 Protected routes with middleware
+- 🌐 Deployed on Render
+
+---
+
+## 🔧 Tech Stack
+
+**Frontend**  
+- React.js  
+- React Router  
+- Redux Toolkit  
+- React Query  
+- Tailwind CSS  
+- Framer Motion
+
+**Backend**  
+- Node.js  
+- Express.js  
+- MongoDB (Atlas)  
+- Mongoose  
+- JWT Authentication  
+- pdf-parse  
+- Google Generative AI (Gemini Pro)
+
+---
+
+## 🧠 AI Integrations
+
+- **Resume Parsing:** Extracts structured data from uploaded PDF resumes.
+- **Note Suggestion:** AI provides suggestions or insights based on user notes using the Gemini model.
+
+---
+
+## 🔐 Authentication
+
+- Uses **JWT** tokens stored in `localStorage`
+- Protected backend routes using **Express middleware**
+
+---
